@@ -4,3 +4,11 @@
     font-family: Raleway;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--background);
+    
+}
