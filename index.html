@@ -3,25 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c674610699.js" crossorigin="anonymous"></script>
     <title>Home</title>
-    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/colors.css">
-    <link rel="stylesheet" href="/css/everything.css">
-    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/head.css">
+    <link rel="stylesheet" href="/css/hero.css">
+    <link rel="stylesheet" href="css/styles_images/consolas.css">
+    <link rel="stylesheet" href="css/styles_images/starwars.css">
+    <link rel="stylesheet" href="css/styles_images/diversos.css">
 </head>
 <body>
+<!--***************************HEADER***************************************************-->
+
     <header>
-        <div class="box_left__content">
-            <div class="icons">
-                <img src="assets/head_icons/icon_joystick.png" alt="icono joystick">
-                <img src="assets/head_icons/icon_Texto.png" alt="text alura">
-            </div>
-            <div class="search__bar">
-                <input type="text">
-                <img src="assets/head_icons/Icon_search.png" alt="">
-            </div>
+        <div class="container__icons">
+            <img src="imagenes/cabecera/icon_joystick.png" alt="icono joystick">
+            <h1 class="title__project">Alura Geek</h1>
         </div>
-        <button>Login</button>
+        <form class="search__bar">
+            <input  class="search__input" type="text" placeholder="search here">
+            <button class="icon__search"><img src="/imagenes/cabecera/Icon_search.png" alt=""></button>
+        </form>
+        <div class="button__login">
+            <button id="login">Login</button>
+        </div>
     </header>
+
+<!-- ***************************IMAGE******************************************************** -->
+    <main>
+        <div class="hero"></div>
+<!-- ***************************SECTION_IMAGES********************************************** -->
+        <section class="box__images__starwars">
+            <div class="box_title_sup">
+                <h2>Star Wars</h2>
+                <h4>Ver todo <img src="flecha.jpg" alt=""></h4>
+            </div>
+            <div class="container__images">
+                <img src="imagenes/star wars/starwars 1.png" alt="imagen de starwars">
+                <img src="imagenes/star wars/starwars2.png" alt="imagen de starwars">
+                <img src="imagenes/star wars/starwars3.png" alt="imagen de starwars">
+                <img src="imagenes/star wars/starwars4.png" alt="imagen de starwars">
+                <img src="imagenes/star wars/starwars5.png" alt="imagen de starwars">
+                <img src="imagenes/star wars/starwars6.png" alt="imagen de starwars">
+            </div>
+        </section>
+        <section class="box__images">
+            <div class="box_title_sup">
+                <h2>Consolas</h2>
+                <h4>Ver todo <img src="flecha.jpg" alt=""></h4>
+            </div>
+            <div class="container__images">
+                <img src="imagenes/consolas/consolas1.png" alt="imagen de consolas">
+                <img src="imagenes/consolas/consolas2.png" alt="imagen de consolas">
+                <img src="imagenes/consolas/consolas3.png" alt="imagen de consolas">
+                <img src="imagenes/consolas/consolas4.png" alt="imagen de consolas">
+                <img src="imagenes/consolas/consolas5.png" alt="imagen de consolas">
+                <img src="imagenes/consolas/consolas6.png" alt="imagen de consolas">
+            </div>
+        </section>
+        <section class="box__images">
+            <div class="box_title_sup">
+                <h2>Diversos</h2>
+                <h4>Ver todo <img src="flecha.jpg" alt=""></h4>
+            </div>
+            <div class="container__images">
+                <img src="imagenes/varios/diversos1.png" alt="imagen de diversos">
+                <img src="imagenes/varios/diversos2.png" alt="imagen de diversos">
+                <img src="imagenes/varios/diversos3.png" alt="imagen de diversos">
+                <img src="imagenes/varios/diversos4.png" alt="imagen de diversos">
+                <img src="imagenes/varios/varios5.png" alt="imagen de diversos">
+                <img src="imagenes/varios/varios6.png" alt="imagen de diversos">
+            </div>
+        </section>
+        <section class="container__contacto">
+            <ul class="enlaces">
+                <li><a href="#">Quienes Somos</a></li>
+                <li><a href="#">Politica de privacidad</a></li>
+                <li><a href="#">Programa de fidelidad</a></li>
+                <li><a href="#">Nuestras tiendas</a></li>
+                <li><a href="#">Quiero ser franquiciado</a></li>
+                <li><a href="#">Anuncie Aquí</a></li>
+            </ul>
+            <form action="" class="form">
+                <h5>Hable con nosotros</h5>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Escribe tu mensaje">
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <span> &regDesarrollado por IsmaFuentes 2023 </span>
+    </footer>
 </body>
 </html>

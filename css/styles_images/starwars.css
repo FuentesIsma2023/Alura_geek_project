@@ -1,0 +1,27 @@
+.box__images__starwars{
+    display: flex;
+    flex-direction: column;
+}
+.box_title_sup{
+    margin: 0 10px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    color: var(--title_products);
+}
+h4{
+    color: var(--blue_texts-100);
+}
+.container__images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.container__images img{
+    width: 200px;
+    margin: 5px 10px;
+}
