@@ -19,6 +19,8 @@ header{
     color: #2A7AE4;
     font-size: 20px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .search__bar{
     display: flex;

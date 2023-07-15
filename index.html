@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/styles_images/consolas.css">
     <link rel="stylesheet" href="css/styles_images/starwars.css">
     <link rel="stylesheet" href="css/styles_images/diversos.css">
+    <link rel="stylesheet" href="/css/contacto.css">
+    <link rel="stylesheet" href="/css/rodapie.css">
 </head>
 <body>
 <!--***************************HEADER***************************************************-->
@@ -18,11 +20,11 @@
     <header>
         <div class="container__icons">
             <img src="imagenes/cabecera/icon_joystick.png" alt="icono joystick">
-            <h1 class="title__project">Alura Geek</h1>
+            <h1 class="title__project">ALURA Geek</h1>
         </div>
         <form class="search__bar">
             <input  class="search__input" type="text" placeholder="search here">
-            <button class="icon__search"><img src="/imagenes/cabecera/Icon_search.png" alt=""></button>
+            <button id="Login" class="icon__search" ><img src="/imagenes/cabecera/Icon_search.png" alt=""></button>
         </form>
         <div class="button__login">
             <button id="login">Login</button>
@@ -31,7 +33,9 @@
 
 <!-- ***************************IMAGE******************************************************** -->
     <main>
-        <div class="hero"></div>
+        <div class="hero">
+            <!-- imagen de fondo -->
+        </div>
 <!-- ***************************SECTION_IMAGES********************************************** -->
         <section class="box__images__starwars">
             <div class="box_title_sup">
@@ -76,6 +80,10 @@
             </div>
         </section>
         <section class="container__contacto">
+            <div class="container__contacto__icons">
+                <img src="imagenes/cabecera/icon_joystick.png" alt="icono joystick">
+                <img src="Texto.jpg" alt="">
+            </div>
             <ul class="enlaces">
                 <li><a href="#">Quienes Somos</a></li>
                 <li><a href="#">Politica de privacidad</a></li>
@@ -85,15 +93,22 @@
                 <li><a href="#">Anuncie Aquí</a></li>
             </ul>
             <form action="" class="form">
-                <h5>Hable con nosotros</h5>
-                <input type="text" placeholder="Nombre">
-                <input type="text" placeholder="Escribe tu mensaje">
-                <button type="submit">Enviar Mensaje</button>
+                <h5 class="form__title">Hable con nosotros</h5>
+                <div class="form__nombre">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" type="text" placeholder="">
+                </div>
+                <div class="form__mensaje">
+                    <label for="mesaje_contacto">Escribe aqui tu mensaje</label>
+                    <textarea id="mesaje_contacto" cols="30" rows="10"></textarea>
+                </div>
+                <button id="button" type="submit">Enviar Mensaje</button>
             </form>
         </section>
     </main>
     <footer>
         <span> &regDesarrollado por IsmaFuentes 2023 </span>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
