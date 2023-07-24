@@ -43,8 +43,9 @@ h4 a{
     border-radius: 10px;
     transition: .5s;
 }
-#box-image span{
+#box-image a{
     margin: 5px 0;
+    text-decoration: none;
 }
 #box-image h5{
     color: var(--blue_texts-100);
