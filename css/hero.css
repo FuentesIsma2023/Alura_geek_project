@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap');
 .hero{
-    background: url(/hero.jpg);
+    background: url(/banner/banner.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
