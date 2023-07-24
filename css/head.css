@@ -54,7 +54,13 @@ header{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background-color: #fff;
+    background-color: var(--blue_texts-100);
     border: .5px solid #2A7AE4;
-    color: #2A7AE4;
+    color: #fff;
+    transition: 1.1s;
+}
+#login:hover{
+    scale: 1.1;
+    background-color: #fff;
+    color: var(--blue_texts-100);
 }
