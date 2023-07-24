@@ -8,26 +8,29 @@
     width: auto;
 }
 .hero{
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0 0 10px 0;
 }
 .hero h1{
     color: #fff;
     text-shadow: 1px 2px 5px lightgray;
-    position: absolute;
-    bottom: 40%;
+    /* position: absolute; */
+    
     margin-left: 10%;
 }
 .hero h4{
     color: #fff;
-    position: absolute;
-    bottom: 30%;
+    /* position: absolute; */
+    
     text-shadow: 1px 2px 5px lightgray;
     margin-left: 10%;
 }
 .hero button{
     color: #fff;
-    position: absolute;
-    bottom: 2%;
+    /* position: absolute; */
+    
     margin-left: 10%;
     background: var(--blue_texts-100);
     border: none;
