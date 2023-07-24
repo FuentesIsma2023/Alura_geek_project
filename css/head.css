@@ -1,7 +1,7 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: var(--header-background);
+    background-image: linear-gradient(to right, #c0d3eb, #fff);
     align-items: center;
     align-content: center;
     min-height: 75px;
@@ -63,4 +63,7 @@ header{
     scale: 1.1;
     background-color: #fff;
     color: var(--blue_texts-100);
+}
+@media screen and (min-width:750px) {
+    
 }
