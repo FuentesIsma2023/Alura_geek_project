@@ -46,9 +46,11 @@ h4 a{
 #box-image a{
     margin: 5px 0;
     text-decoration: none;
+    cursor: pointer;
 }
-#box-image h5{
+#box-image a{
     color: var(--blue_texts-100);
+
 }
 .container__images img:hover{
     scale: 1.1;

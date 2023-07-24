@@ -7,6 +7,7 @@
     align-items: center;
     padding: 1rem 2rem;
 }
+
 .enlaces li{
     list-style: none;
     text-decoration: none;
@@ -22,6 +23,10 @@
 .container__contacto__icons{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.container__contact_texts{
+    display: flex;
     align-items: center;
 }
 /* ***********form**************** */
@@ -46,7 +51,6 @@
     background: #fff;
     border-bottom: solid #C8C8C8;
 }
-
 .form__mensaje{
     display: flex;
     flex-direction: column;
@@ -54,7 +58,9 @@
 #nombre{
     border: none;
     background: #fff;
+    outline: none;
 }
+
 /* *************TEXTAREA**************** */
 .form__mensaje{
     display: flex;
@@ -69,6 +75,7 @@
 #mesaje_contacto{
     border: none;
     background: #fff;
+    outline: none;
 }
 /* *******BUTTON********************* */
 #button{
@@ -82,6 +89,14 @@
     color: #fff;
     font-size: 16px;
     font-weight: 600;
+    border: none;
+    transition: 1.1s;
+}
+#button:hover{
+    scale: 1.1;
+    background-color: #fff;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
 }
 /* ***********FOOTER******************************** */
 footer{
