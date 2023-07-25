@@ -5,7 +5,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 192px;
-    width: auto;
 }
 .hero{
     display: flex;
@@ -13,13 +12,13 @@
     justify-content: end;
     padding: 0 0 10px 0;
 }
-.hero h1{
+.hero .text1{
     color: #fff;
     text-shadow: 1px 2px 5px lightgray;
     
     margin-left: 10%;
 }
-.hero h4{
+.hero .text2{
     color: #fff;
     
     text-shadow: 1px 2px 5px lightgray;
@@ -42,5 +41,23 @@
     color: var(--blue_texts-100);
 }
 @media screen and (min-width:1024px) {
-    
+    .hero{
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero .text1{
+        font-size: 50px;
+        margin-left: 100px;
+    }
+    .hero .text2{
+        font-size: 30px;
+        margin-left: 100px;
+    }
+    .hero #verConsolas{
+        margin-left: 100px;
+        border-radius: 15px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
 }

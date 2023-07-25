@@ -1,11 +1,41 @@
+.centralSide__header{
+    display: flex;
+    position: absolute; /*TO CHANGE THE POSITION OF THE LOGGIN SINCE THE RIGHT TO THE LEFT*/
+    right: 10%;
+    height: auto;
+    
+}
+.search__input{
+    display: none;
+    
+}
+.icon__search{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 
 
 
 
 @media screen and (min-width:1024px) {
     .centralSide__header{
-        flex: 1;
+        
         display: flex;
         align-items: center;
+        position: unset;
+        border: 3px solid #fff;
+        width: 350px;
+        height: 50px;
+        justify-content: center;
+        border-radius: 15px;
+        
+    }
+    .search__input{
+        display: flex;
+        width: 90%;
+        background: none;
+        border: none;
+        outline: none;
     }
 }
