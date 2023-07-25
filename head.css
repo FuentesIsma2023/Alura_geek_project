@@ -64,6 +64,6 @@ header{
     background-color: #fff;
     color: var(--blue_texts-100);
 }
-@media screen and (min-width:750px) {
+@media screen and (min-width:1024px) {
     
 }

@@ -16,20 +16,17 @@
 .hero h1{
     color: #fff;
     text-shadow: 1px 2px 5px lightgray;
-    /* position: absolute; */
     
     margin-left: 10%;
 }
 .hero h4{
     color: #fff;
-    /* position: absolute; */
     
     text-shadow: 1px 2px 5px lightgray;
     margin-left: 10%;
 }
 .hero button{
     color: #fff;
-    /* position: absolute; */
     
     margin-left: 10%;
     background: var(--blue_texts-100);
@@ -43,4 +40,7 @@
     scale: 1.1;
     background-color: #fff;
     color: var(--blue_texts-100);
+}
+@media screen and (min-width:1024px) {
+    
 }
