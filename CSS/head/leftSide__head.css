@@ -1,0 +1,33 @@
+
+
+
+
+
+
+@media screen and (min-width:1024px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 100px;
+        align-items: center;
+        
+    }
+    .leftside__header{
+        flex: 2;
+        display: flex;
+        align-items: center;
+    }
+    .leftside__header div{
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .leftside__header div h1{
+        font-size: 40px;
+    }
+    .leftside__header div h2{
+        color: #2A7AE4;
+        margin-left: 5px;
+        font-size: 25px;
+    }
+}

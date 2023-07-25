@@ -1,37 +1,4 @@
-.container__contacto{
-    background-color: #EAF2FD;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    align-items: center;
-    padding: 1rem 2rem;
-}
 
-.enlaces li{
-    list-style: none;
-    text-decoration: none;
-    font-size: 25px;
-    text-align: center;
-    
-}
-.enlaces li a{
-    text-decoration: none;
-    line-height: 15px;
-    line-height: 30px;
-    text-align: center;
-    color: #464646;
-}
-.container__contacto__icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.container__contact_texts{
-    display: flex;
-    align-items: center;
-}
-/* ***********form**************** */
 .form{
     display: flex;
     flex-direction: column;
@@ -99,7 +66,4 @@
     background-color: #fff;
     color: #2A7AE4;
     border: 1px solid #2A7AE4;
-}
-@media screen and (min-width:1024px) {
-    
 }

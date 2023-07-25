@@ -1,0 +1,10 @@
+
+
+
+@media screen and (min-width:1024px) {
+    .rightSide__header{
+        flex: .5;
+        display: flex;
+        align-items: center;
+    }
+}
