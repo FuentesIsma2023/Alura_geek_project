@@ -48,16 +48,22 @@
     }
     .hero .text1{
         font-size: 50px;
-        margin-left: 100px;
+        margin: 0;
+        
+        padding-left: 40px;
     }
     .hero .text2{
         font-size: 30px;
         margin-left: 100px;
+        margin: 0;
+        
+        padding-left: 40px;
     }
     .hero #verConsolas{
-        margin-left: 100px;
+        margin-left: 40px;
         border-radius: 15px;
         margin-top: 10px;
         cursor: pointer;
+
     }
 }

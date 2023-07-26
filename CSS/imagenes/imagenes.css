@@ -25,6 +25,7 @@
     align-content: center;
     width: 100%;
     
+    
 }
 #box-image{ /*contenedor de imagenes, nombre de producto, precio y texto para ver producto*/
     width: 150px;
@@ -79,23 +80,32 @@ h2{
     .box_title_sup{
         font-size: 30px;
         justify-content: space-between;
-        margin: 0 40px 0 80px; 
+        margin: 0;
+        padding-left: 40px;
+        padding-right: 40px;
         text-shadow: 1px 2px 3px #fff;
+        
+        align-items: center;
+        
     }
     .box_title_sup h4{
         font-size: 25px;
     }
     .box_title_sup h4 i{
         margin-left: 5px;
+        
     }
     .container__images{
-        
         width: 100%;
         
     }
     #box-image{
-        width: 150px;
-        margin: 0 80px;
+        width: 180px;
+        margin: 10px 20px;
+        
+    }
+    #box-image img{
+        width: 180px;
     }
 
 
