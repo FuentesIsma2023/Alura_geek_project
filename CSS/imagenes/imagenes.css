@@ -68,14 +68,16 @@ h2{
 }
 @media screen and (min-width: 1024px) {
     .box__images{
-
+        margin-left: 100px;
     }
     .container__images{
-        display: flex;
-        flex-wrap: wrap;
+        
     }
     .container__images img{
-        width: 360px;
+        width: 200px;
         border-radius: 20px;
+    }
+    #box-image{
+        
     }
 }
