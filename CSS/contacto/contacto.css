@@ -33,5 +33,31 @@
 }
 /* ***********form**************** */
 @media screen and (min-width:1024px) {
-    
+    .container__contacto{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        padding-left: 100px;
+        align-content: center;
+    }
+    .container__contact_texts{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .container__contacto .alura{
+        color: #2A7AE4;
+        font-size: 40px;
+    }
+    .container__contacto .geek{
+        margin-left: 10px;
+        font-size: 40px;
+    }
+    .enlaces li{
+        text-align: justify;
+        line-height: 50px;
+        font-weight: 700;
+    }
+
 }

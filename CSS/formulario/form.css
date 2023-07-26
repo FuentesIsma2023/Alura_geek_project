@@ -67,3 +67,25 @@
     color: #2A7AE4;
     border: 1px solid #2A7AE4;
 }
+@media screen and (min-width:1024px) {
+    .form{
+        width: 650px;
+    }
+    #nombre{
+        font-weight: 200;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    #mensaje{
+        font-weight: 200;
+        margin-left: 20px;
+        font-size: 20px;
+        
+    }
+    .form__mensaje textarea{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    
+}
