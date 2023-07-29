@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    align-items: center;
+}
+.leftside__header{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+}
+.leftside__header img{
+    height: 45px;
+}
+.leftside__header .alura__geek{
+    display: flex;
+}
+.alura__geek .alura{
+    color: #2A7AE4;
+    margin-left: 5px;
+}
+
+
+
+
+.centralSide__header{
+    display: flex;
+    height: 30px;
+}
