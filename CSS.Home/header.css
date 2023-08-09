@@ -1,14 +1,14 @@
 header{
-    display: flex;
-    height: 50px;
+    display: flex;    
     justify-content: space-between;
-    padding: 1rem 1rem;
     align-items: center;
 }
 .leftside__header{
     display: flex;
     font-size: 15px;
     align-items: center;
+    flex: 2.5;
+    
 }
 .leftside__header img{
     height: 45px;
@@ -24,7 +24,18 @@ header{
 
 
 
-.centralSide__header{
+.rightside__header{
     display: flex;
-    height: 30px;
+    
+    
+    flex: 2.5;
+    height: 45px;
+}
+.rightside__header input{
+    display: none;
+}
+.rightside__header button{
+    background-color: #fff;
+    border: none;
+    margin-left: 80%;
 }

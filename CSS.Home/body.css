@@ -1,6 +1,8 @@
 main{
     display: flex;
     flex-direction: column;
+    
+    align-items: center;
 }
 .login{
     padding: 3rem 2rem;
@@ -11,7 +13,6 @@ main{
 }
 .login form{
     margin-top: 20px;
-    
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -23,10 +24,91 @@ main{
     margin-bottom: 20px;
     width: 350px;
     height: 50px;
+    border: none;
+    border-radius: 0.25rem;
 }
 .login button{
-    width: 150px;
-    height: 30px;
-    background-color: var(--blue_texts-100);
-    color: #fff;
+    display: flex;
+    width: 6.8125rem;
+    padding: 0.75rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    border: none;
 }
+/* ********************************** */
+.quienesSomos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.aluraGeek{
+    display: flex;
+    
+    align-items: center;
+    font-size: 20px;
+}
+.aluraGeek h3{
+    color: #2A7AE4;
+}
+.aluraGeek span{
+    color: black;
+}
+.quienesSomos .textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    color: #464646;
+    font-family: Raleway;
+    font-style: normal;
+}
+
+/* ******************************************************* */
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.formulario .nombre{
+    display: flex;
+    padding: 0 1rem;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 350px;
+    border-radius: 5px;
+    margin: 10px 0;
+    height: 50px;
+}
+.formulario .nombre input{
+    border: none;
+    outline: none;
+    height: 100%;
+}
+.formulario .mensaje{
+    background-color: #FFFFFF;
+    width: 350px;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    margin: 10px 0;
+    height: 100px;
+}
+.formulario .mensaje input{
+    background-color: none;
+    border: none;
+    outline: none;
+}
+.formulario button{
+    display: flex;
+    padding: 0.75rem 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    border: none;
+}
+
